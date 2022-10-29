@@ -44,7 +44,7 @@ func main() {
 	// Connect to localhost with no password
 	var dbNumber = 0
 	var authPWD = nil
-        var client = redistimeseries.NewClient("localhost:6379", "nohelp", dbNumber, authPWD)
+        var client = redistimeseries.NewClient("localhost:6379", "nohelp", authPWD, dbNumber)
         var keyname = "mytest"
         _, haveit := client.Info(keyname)
         if haveit != nil {
