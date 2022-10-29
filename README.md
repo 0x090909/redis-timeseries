@@ -17,7 +17,7 @@ Client and ConnPool based on the work of dvirsky and mnunberg on https://github.
 ## Installing
 
 ```sh
-$ go get github.com/RedisTimeSeries/redistimeseries-go
+$ go get github.com/0x090909/redis-timeseries
 ```
 
 ## Running tests
@@ -37,7 +37,7 @@ package main
 
 import (
         "fmt"
-        redistimeseries "github.com/RedisTimeSeries/redistimeseries-go"
+        redistimeseries "github.com/0x090909/redis-timeseries"
 )
 
 func main() {
